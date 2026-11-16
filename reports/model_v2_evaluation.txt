@@ -1,0 +1,20 @@
+PHISHSHIELD AI - VERSION 2 EVALUATION
+
+Accuracy: 94.75%
+
+              precision    recall  f1-score   support
+
+      benign       0.96      0.97      0.97     13354
+  defacement       0.95      0.99      0.97      2973
+     malware       0.97      0.91      0.94       738
+    phishing       0.85      0.81      0.83      2935
+
+    accuracy                           0.95     20000
+   macro avg       0.93      0.92      0.93     20000
+weighted avg       0.95      0.95      0.95     20000
+
+Confusion Matrix:
+[[12961    27     5   361]
+ [    9  2943     3    18]
+ [   20    13   670    35]
+ [  442   103    15  2375]]

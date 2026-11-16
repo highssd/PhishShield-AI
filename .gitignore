@@ -1,0 +1,12 @@
+venv311/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# Dataset files
+dataset/malicious_phish.csv
+dataset/cleaned_urls.csv
+dataset/extracted_features.csv
+
+# Temporary files
+.DS_Store
